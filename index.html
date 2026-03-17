@@ -1,1245 +1,1085 @@
-<html lang="ar" dir="rtl">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>مسابقة موسم رمضان 2026 - شركة الماجد للعود</title>
-        <meta name="description" content="مسابقة اليوم الوطني 2025 مدراء المناطق- شركة الماجد للعود" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <style>
-            @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap");
+<html lang="ar" dir="rtl"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مسابقة موسم رمضان 2026 - شركة الماجد للعود</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&amp;display=swap" rel="stylesheet">
+    <meta name="description" content="مسابقة موسم 2025 لشركة الماجد للعود - مسابقة تحفيزية للفريق">
+    <meta name="keywords" content="الماجد للعود, مسابقة, اليوم الوطني, 2025, مبيعات, جوائز">
+    
+ <style>
+     
+     /* =========================
+   SERIOUS Neon Dark Theme
+   ضع هذا الكود في آخر <style>
+   ========================= */
 
-            body {
-                font-family: "Cairo", sans-serif;
-            }
+/* 1) ألوان وثيم عام */
+:root{
+  --bg-0:#050713;      /* خلفية */
+  --bg-1:#070a1a;
+  --panel:rgba(255,255,255,.06); /* زجاج */
+  --panel-2:rgba(255,255,255,.04);
+  --stroke:rgba(255,255,255,.12);
+  --text:#e9eef7;
+  --muted:#aeb7c6;
 
-            @keyframes fade-in {
-                from {
-                    opacity: 0;
-                    transform: translateY(10px);
-                }
-                to {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            }
+  --neon-red:#ff254a;
+  --neon-red-2:#ff4d6d;
+  --neon-blue:#37b6ff;
+  --neon-cyan:#36f0ff;
+}
 
-            .animate-fade-in {
-                animation: fade-in 1s ease-in-out;
-            }
+html, body{
+  background: radial-gradient(1200px 600px at 50% -10%, rgba(55,182,255,.18), transparent 55%),
+              radial-gradient(900px 500px at 50% 115%, rgba(255,37,74,.18), transparent 55%),
+              linear-gradient(180deg, var(--bg-0), var(--bg-1));
+  color: var(--text);
+}
 
-            .text-shadow {
-                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-            }
+/* 2) عناوين ولمعة معدنية */
+h1, h2, h3, h4, h5{
+  color: var(--text) !important;
+  letter-spacing: .2px;
+}
+.text-gray-700, .text-gray-600, .text-gray-800{
+  color: var(--muted) !important;
+}
 
-            .animate-pulse-slow {
-                animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-            }
+/* 3) هيدر بنفس إحساس “عمود الضوء الأحمر” */
+header{
+  position: relative;
+  background: radial-gradient(900px 500px at 50% 35%, rgba(255,37,74,.22), transparent 60%),
+              radial-gradient(700px 400px at 50% 15%, rgba(55,182,255,.15), transparent 55%),
+              linear-gradient(180deg, #03040c, #070a1a) !important;
+  border-bottom: 1px solid var(--stroke);
+  overflow: hidden;
+}
 
-            .animate-bounce-slow {
-                animation: bounce 2s infinite;
-            }
+header::before{
+  content:"";
+  position:absolute;
+  inset:-40% 0 -40% 0;
+  width: 240px;
+  margin: 0 auto;
+  background: radial-gradient(circle at 50% 10%, rgba(255,37,74,.95), rgba(255,37,74,.25) 40%, transparent 70%);
+  filter: blur(2px);
+  opacity: .9;
+}
 
-            .gradient-text {
-                background: linear-gradient(45deg, #059669, #0a392a, #34d399);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-            }
-        </style>
-        <style>
-            *,
-            ::before,
-            ::after {
-                --tw-border-spacing-x: 0;
-                --tw-border-spacing-y: 0;
-                --tw-translate-x: 0;
-                --tw-translate-y: 0;
-                --tw-rotate: 0;
-                --tw-skew-x: 0;
-                --tw-skew-y: 0;
-                --tw-scale-x: 1;
-                --tw-scale-y: 1;
-                --tw-pan-x: ;
-                --tw-pan-y: ;
-                --tw-pinch-zoom: ;
-                --tw-scroll-snap-strictness: proximity;
-                --tw-gradient-from-position: ;
-                --tw-gradient-via-position: ;
-                --tw-gradient-to-position: ;
-                --tw-ordinal: ;
-                --tw-slashed-zero: ;
-                --tw-numeric-figure: ;
-                --tw-numeric-spacing: ;
-                --tw-numeric-fraction: ;
-                --tw-ring-inset: ;
-                --tw-ring-offset-width: 0px;
-                --tw-ring-offset-color: #fff;
-                --tw-ring-color: rgb(59 130 246 / 0.5);
-                --tw-ring-offset-shadow: 0 0 #0000;
-                --tw-ring-shadow: 0 0 #0000;
-                --tw-shadow: 0 0 #0000;
-                --tw-shadow-colored: 0 0 #0000;
-                --tw-blur: ;
-                --tw-brightness: ;
-                --tw-contrast: ;
-                --tw-grayscale: ;
-                --tw-hue-rotate: ;
-                --tw-invert: ;
-                --tw-saturate: ;
-                --tw-sepia: ;
-                --tw-drop-shadow: ;
-                --tw-backdrop-blur: ;
-                --tw-backdrop-brightness: ;
-                --tw-backdrop-contrast: ;
-                --tw-backdrop-grayscale: ;
-                --tw-backdrop-hue-rotate: ;
-                --tw-backdrop-invert: ;
-                --tw-backdrop-opacity: ;
-                --tw-backdrop-saturate: ;
-                --tw-backdrop-sepia: ;
-                --tw-contain-size: ;
-                --tw-contain-layout: ;
-                --tw-contain-paint: ;
-                --tw-contain-style: ;
-            }
-            ::backdrop {
-                --tw-border-spacing-x: 0;
-                --tw-border-spacing-y: 0;
-                --tw-translate-x: 0;
-                --tw-translate-y: 0;
-                --tw-rotate: 0;
-                --tw-skew-x: 0;
-                --tw-skew-y: 0;
-                --tw-scale-x: 1;
-                --tw-scale-y: 1;
-                --tw-pan-x: ;
-                --tw-pan-y: ;
-                --tw-pinch-zoom: ;
-                --tw-scroll-snap-strictness: proximity;
-                --tw-gradient-from-position: ;
-                --tw-gradient-via-position: ;
-                --tw-gradient-to-position: ;
-                --tw-ordinal: ;
-                --tw-slashed-zero: ;
-                --tw-numeric-figure: ;
-                --tw-numeric-spacing: ;
-                --tw-numeric-fraction: ;
-                --tw-ring-inset: ;
-                --tw-ring-offset-width: 0px;
-                --tw-ring-offset-color: #fff;
-                --tw-ring-color: rgb(59 130 246 / 0.5);
-                --tw-ring-offset-shadow: 0 0 #0000;
-                --tw-ring-shadow: 0 0 #0000;
-                --tw-shadow: 0 0 #0000;
-                --tw-shadow-colored: 0 0 #0000;
-                --tw-blur: ;
-                --tw-brightness: ;
-                --tw-contrast: ;
-                --tw-grayscale: ;
-                --tw-hue-rotate: ;
-                --tw-invert: ;
-                --tw-saturate: ;
-                --tw-sepia: ;
-                --tw-drop-shadow: ;
-                --tw-backdrop-blur: ;
-                --tw-backdrop-brightness: ;
-                --tw-backdrop-contrast: ;
-                --tw-backdrop-grayscale: ;
-                --tw-backdrop-hue-rotate: ;
-                --tw-backdrop-invert: ;
-                --tw-backdrop-opacity: ;
-                --tw-backdrop-saturate: ;
-                --tw-backdrop-sepia: ;
-                --tw-contain-size: ;
-                --tw-contain-layout: ;
-                --tw-contain-paint: ;
-                --tw-contain-style: ;
-            } /* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */
-            *,
-            ::after,
-            ::before {
-                box-sizing: border-box;
-                border-width: 0;
-                border-style: solid;
-                border-color: #e5e7eb;
-            }
-            ::after,
-            ::before {
-                --tw-content: "";
-            }
-            :host,
-            html {
-                line-height: 1.5;
-                -webkit-text-size-adjust: 100%;
-                -moz-tab-size: 4;
-                tab-size: 4;
-                font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-                    "Segoe UI Symbol", "Noto Color Emoji";
-                font-feature-settings: normal;
-                font-variation-settings: normal;
-                -webkit-tap-highlight-color: transparent;
-            }
-            body {
-                margin: 0;
-                line-height: inherit;
-            }
-            hr {
-                height: 0;
-                color: inherit;
-                border-top-width: 1px;
-            }
-            abbr:where([title]) {
-                -webkit-text-decoration: underline dotted;
-                text-decoration: underline dotted;
-            }
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6 {
-                font-size: inherit;
-                font-weight: inherit;
-            }
-            a {
-                color: inherit;
-                text-decoration: inherit;
-            }
-            b,
-            strong {
-                font-weight: bolder;
-            }
-            code,
-            kbd,
-            pre,
-            samp {
-                font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
-                    monospace;
-                font-feature-settings: normal;
-                font-variation-settings: normal;
-                font-size: 1em;
-            }
-            small {
-                font-size: 80%;
-            }
-            sub,
-            sup {
-                font-size: 75%;
-                line-height: 0;
-                position: relative;
-                vertical-align: baseline;
-            }
-            sub {
-                bottom: -0.25em;
-            }
-            sup {
-                top: -0.5em;
-            }
-            table {
-                text-indent: 0;
-                border-color: inherit;
-                border-collapse: collapse;
-            }
-            button,
-            input,
-            optgroup,
-            select,
-            textarea {
-                font-family: inherit;
-                font-feature-settings: inherit;
-                font-variation-settings: inherit;
-                font-size: 100%;
-                font-weight: inherit;
-                line-height: inherit;
-                letter-spacing: inherit;
-                color: inherit;
-                margin: 0;
-                padding: 0;
-            }
-            button,
-            select {
-                text-transform: none;
-            }
-            button,
-            input:where([type="button"]),
-            input:where([type="reset"]),
-            input:where([type="submit"]) {
-                -webkit-appearance: button;
-                background-color: transparent;
-                background-image: none;
-            }
-            :-moz-focusring {
-                outline: auto;
-            }
-            :-moz-ui-invalid {
-                box-shadow: none;
-            }
-            progress {
-                vertical-align: baseline;
-            }
-            ::-webkit-inner-spin-button,
-            ::-webkit-outer-spin-button {
-                height: auto;
-            }
-            [type="search"] {
-                -webkit-appearance: textfield;
-                outline-offset: -2px;
-            }
-            ::-webkit-search-decoration {
-                -webkit-appearance: none;
-            }
-            ::-webkit-file-upload-button {
-                -webkit-appearance: button;
-                font: inherit;
-            }
-            summary {
-                display: list-item;
-            }
-            blockquote,
-            dd,
-            dl,
-            figure,
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6,
-            hr,
-            p,
-            pre {
-                margin: 0;
-            }
-            fieldset {
-                margin: 0;
-                padding: 0;
-            }
-            legend {
-                padding: 0;
-            }
-            menu,
-            ol,
-            ul {
-                list-style: none;
-                margin: 0;
-                padding: 0;
-            }
-            dialog {
-                padding: 0;
-            }
-            textarea {
-                resize: vertical;
-            }
-            input::placeholder,
-            textarea::placeholder {
-                opacity: 1;
-                color: #9ca3af;
-            }
-            [role="button"],
-            button {
-                cursor: pointer;
-            }
-            :disabled {
-                cursor: default;
-            }
-            audio,
-            canvas,
-            embed,
-            iframe,
-            img,
-            object,
-            svg,
-            video {
-                display: block;
-                vertical-align: middle;
-            }
-            img,
-            video {
-                max-width: 100%;
-                height: auto;
-            }
-            [hidden]:where(:not([hidden="until-found"])) {
-                display: none;
-            }
-            .container {
-                width: 100%;
-            }
-            @media (min-width: 640px) {
-                .container {
-                    max-width: 640px;
-                }
-            }
-            @media (min-width: 768px) {
-                .container {
-                    max-width: 768px;
-                }
-            }
-            @media (min-width: 1024px) {
-                .container {
-                    max-width: 1024px;
-                }
-            }
-            @media (min-width: 1280px) {
-                .container {
-                    max-width: 1280px;
-                }
-            }
-            @media (min-width: 1536px) {
-                .container {
-                    max-width: 1536px;
-                }
-            }
-            .absolute {
-                position: absolute;
-            }
-            .relative {
-                position: relative;
-            }
-            .inset-0 {
-                inset: 0px;
-            }
-            .mx-auto {
-                margin-left: auto;
-                margin-right: auto;
-            }
-            .mb-1 {
-                margin-bottom: 0.25rem;
-            }
-            .mb-2 {
-                margin-bottom: 0.5rem;
-            }
-            .mb-4 {
-                margin-bottom: 1rem;
-            }
-            .mb-6 {
-                margin-bottom: 1.5rem;
-            }
-            .block {
-                display: block;
-            }
-            .flex {
-                display: flex;
-            }
-            .grid {
-                display: grid;
-            }
-            .h-24 {
-                height: 6rem;
-            }
-            .h-8 {
-                height: 2rem;
-            }
-            .w-24 {
-                width: 6rem;
-            }
-            .w-8 {
-                width: 2rem;
-            }
-            .w-full {
-                width: 100%;
-            }
-            .max-w-2xl {
-                max-width: 42rem;
-            }
-            .max-w-4xl {
-                max-width: 56rem;
-            }
-            .transform {
-                transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
-                    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-            }
-            .grid-cols-2 {
-                grid-template-columns: repeat(2, minmax(0, 1fr));
-            }
-            .items-start {
-                align-items: flex-start;
-            }
-            .items-center {
-                align-items: center;
-            }
-            .justify-center {
-                justify-content: center;
-            }
-            .gap-2 {
-                gap: 0.5rem;
-            }
-            .gap-3 {
-                gap: 0.75rem;
-            }
-            .gap-4 {
-                gap: 1rem;
-            }
-            .gap-8 {
-                gap: 2rem;
-            }
-            .space-y-4 > :not([hidden]) ~ :not([hidden]) {
-                --tw-space-y-reverse: 0;
-                margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-                margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-            }
-            .overflow-hidden {
-                overflow: hidden;
-            }
-            .overflow-x-auto {
-                overflow-x: auto;
-            }
-            .rounded-2xl {
-                border-radius: 1rem;
-            }
-            .rounded-full {
-                border-radius: 9999px;
-            }
-            .rounded-xl {
-                border-radius: 0.75rem;
-            }
-            .rounded-tl-xl {
-                border-top-left-radius: 0.75rem;
-            }
-            .rounded-tr-xl {
-                border-top-right-radius: 0.75rem;
-            }
-            .border-2 {
-                border-width: 2px;
-            }
-            .border-4 {
-                border-width: 4px;
-            }
-            .border-t-4 {
-                border-top-width: 4px;
-            }
-            .border-blue-200 {
-                --tw-border-opacity: 1;
-                border-color: rgb(191 219 254 / var(--tw-border-opacity, 1));
-            }
-            .border-green-200 {
-                --tw-border-opacity: 1;
-                border-color: rgb(187 247 208 / var(--tw-border-opacity, 1));
-            }
-            .border-green-500 {
-                --tw-border-opacity: 1;
-                border-color: rgb(34 197 94 / var(--tw-border-opacity, 1));
-            }
-            .border-white\/30 {
-                border-color: rgb(255 255 255 / 0.3);
-            }
-            .border-yellow-200 {
-                --tw-border-opacity: 1;
-                border-color: rgb(254 240 138 / var(--tw-border-opacity, 1));
-            }
-            .bg-black {
-                --tw-bg-opacity: 1;
-                background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-            }
-            .bg-blue-50 {
-                --tw-bg-opacity: 1;
-                background-color: rgb(239 246 255 / var(--tw-bg-opacity, 1));
-            }
-            .bg-blue-500 {
-                --tw-bg-opacity: 1;
-                background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
-            }
-            .bg-gray-50 {
-                --tw-bg-opacity: 1;
-                background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
-            }
-            .bg-green-100 {
-                --tw-bg-opacity: 1;
-                background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
-            }
-            .bg-white {
-                --tw-bg-opacity: 1;
-                background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-            }
-            .bg-white\/10 {
-                background-color: rgb(255 255 255 / 0.1);
-            }
-            .bg-yellow-100 {
-                --tw-bg-opacity: 1;
-                background-color: rgb(254 249 195 / var(--tw-bg-opacity, 1));
-            }
-            .bg-gradient-to-br {
-                background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
-            }
-            .bg-gradient-to-r {
-                background-image: linear-gradient(to right, var(--tw-gradient-stops));
-            }
-            .from-green-100 {
-                --tw-gradient-from: #dcfce7 var(--tw-gradient-from-position);
-                --tw-gradient-to: rgb(220 252 231 / 0) var(--tw-gradient-to-position);
-                --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-            }
-            .from-green-50 {
-                --tw-gradient-from: #f0fdf4 var(--tw-gradient-from-position);
-                --tw-gradient-to: rgb(240 253 244 / 0) var(--tw-gradient-to-position);
-                --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-            }
-            .from-green-500 {
-                --tw-gradient-from: #22c55e var(--tw-gradient-from-position);
-                --tw-gradient-to: rgb(34 197 94 / 0) var(--tw-gradient-to-position);
-                --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-            }
-            .from-green-600 {
-                --tw-gradient-from: #16a34a var(--tw-gradient-from-position);
-                --tw-gradient-to: rgb(22 163 74 / 0) var(--tw-gradient-to-position);
-                --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-            }
-            .from-green-800 {
-                --tw-gradient-from: #166534 var(--tw-gradient-from-position);
-                --tw-gradient-to: rgb(22 101 52 / 0) var(--tw-gradient-to-position);
-                --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-            }
-            .from-yellow-100 {
-                --tw-gradient-from: #fef9c3 var(--tw-gradient-from-position);
-                --tw-gradient-to: rgb(254 249 195 / 0) var(--tw-gradient-to-position);
-                --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-            }
-            .from-yellow-50 {
-                --tw-gradient-from: #fefce8 var(--tw-gradient-from-position);
-                --tw-gradient-to: rgb(254 252 232 / 0) var(--tw-gradient-to-position);
-                --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-            }
-            .via-white {
-                --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
-                --tw-gradient-stops: var(--tw-gradient-from), #fff var(--tw-gradient-via-position),
-                    var(--tw-gradient-to);
-            }
-            .to-green-100 {
-                --tw-gradient-to: #dcfce7 var(--tw-gradient-to-position);
-            }
-            .to-green-50 {
-                --tw-gradient-to: #f0fdf4 var(--tw-gradient-to-position);
-            }
-            .to-green-600 {
-                --tw-gradient-to: #16a34a var(--tw-gradient-to-position);
-            }
-            .to-green-800 {
-                --tw-gradient-to: #166534 var(--tw-gradient-to-position);
-            }
-            .to-green-900 {
-                --tw-gradient-to: #14532d var(--tw-gradient-to-position);
-            }
-            .to-orange-100 {
-                --tw-gradient-to: #ffedd5 var(--tw-gradient-to-position);
-            }
-            .to-orange-50 {
-                --tw-gradient-to: #fff7ed var(--tw-gradient-to-position);
-            }
-            .object-contain {
-                object-fit: contain;
-            }
-            .p-2 {
-                padding: 0.5rem;
-            }
-            .p-4 {
-                padding: 1rem;
-            }
-            .p-6 {
-                padding: 1.5rem;
-            }
-            .px-3 {
-                padding-left: 0.75rem;
-                padding-right: 0.75rem;
-            }
-            .px-4 {
-                padding-left: 1rem;
-                padding-right: 1rem;
-            }
-            .py-1 {
-                padding-top: 0.25rem;
-                padding-bottom: 0.25rem;
-            }
-            .py-6 {
-                padding-top: 1.5rem;
-                padding-bottom: 1.5rem;
-            }
-            .py-8 {
-                padding-top: 2rem;
-                padding-bottom: 2rem;
-            }
-            .text-center {
-                text-align: center;
-            }
-            .text-right {
-                text-align: right;
-            }
-            .text-2xl {
-                font-size: 1.5rem;
-                line-height: 2rem;
-            }
-            .text-3xl {
-                font-size: 1.875rem;
-                line-height: 2.25rem;
-            }
-            .text-4xl {
-                font-size: 2.25rem;
-                line-height: 2.5rem;
-            }
-            .text-lg {
-                font-size: 1.125rem;
-                line-height: 1.75rem;
-            }
-            .text-sm {
-                font-size: 0.875rem;
-                line-height: 1.25rem;
-            }
-            .text-xl {
-                font-size: 1.25rem;
-                line-height: 1.75rem;
-            }
-            .font-bold {
-                font-weight: 700;
-            }
-            .font-semibold {
-                font-weight: 600;
-            }
-            .leading-relaxed {
-                line-height: 1.625;
-            }
-            .text-blue-800 {
-                --tw-text-opacity: 1;
-                color: rgb(30 64 175 / var(--tw-text-opacity, 1));
-            }
-            .text-gray-800 {
-                --tw-text-opacity: 1;
-                color: rgb(31 41 55 / var(--tw-text-opacity, 1));
-            }
-            .text-green-800 {
-                --tw-text-opacity: 1;
-                color: rgb(22 101 52 / var(--tw-text-opacity, 1));
-            }
-            .text-white {
-                --tw-text-opacity: 1;
-                color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-            }
-            .text-yellow-200 {
-                --tw-text-opacity: 1;
-                color: rgb(254 240 138 / var(--tw-text-opacity, 1));
-            }
-            .text-yellow-300 {
-                --tw-text-opacity: 1;
-                color: rgb(253 224 71 / var(--tw-text-opacity, 1));
-            }
-            .text-yellow-800 {
-                --tw-text-opacity: 1;
-                color: rgb(133 77 14 / var(--tw-text-opacity, 1));
-            }
-            .opacity-10 {
-                opacity: 0.1;
-            }
-            .opacity-90 {
-                opacity: 0.9;
-            }
-            .shadow-2xl {
-                --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-                --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-                box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-            }
-            .shadow-lg {
-                --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-                --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-                box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-            }
-            .shadow-xl {
-                --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-                --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-                box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-            }
-            .backdrop-blur {
-                --tw-backdrop-blur: blur(8px);
-                -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness)
-                    var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate)
-                    var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate)
-                    var(--tw-backdrop-sepia);
-                backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast)
-                    var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert)
-                    var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-            }
-            .transition-colors {
-                transition-property:
-                    color,
-                    background-color,
-                    border-color,
-                    fill,
-                    stroke,
-                    -webkit-text-decoration-color;
-                transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-                transition-property:
-                    color,
-                    background-color,
-                    border-color,
-                    text-decoration-color,
-                    fill,
-                    stroke,
-                    -webkit-text-decoration-color;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-duration: 150ms;
-            }
-            .transition-transform {
-                transition-property: transform;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-duration: 150ms;
-            }
-            .duration-200 {
-                transition-duration: 200ms;
-            }
-            .duration-300 {
-                transition-duration: 300ms;
-            }
-            .hover\:scale-105:hover {
-                --tw-scale-x: 1.05;
-                --tw-scale-y: 1.05;
-                transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
-                    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-            }
-            .hover\:bg-yellow-50:hover {
-                --tw-bg-opacity: 1;
-                background-color: rgb(254 252 232 / var(--tw-bg-opacity, 1));
-            }
-            @media (min-width: 768px) {
-                .md\:h-40 {
-                    height: 10rem;
-                }
-                .md\:w-40 {
-                    width: 10rem;
-                }
-                .md\:grid-cols-4 {
-                    grid-template-columns: repeat(4, minmax(0, 1fr));
-                }
-                .md\:p-8 {
-                    padding: 2rem;
-                }
-                .md\:text-2xl {
-                    font-size: 1.5rem;
-                    line-height: 2rem;
-                }
-                .md\:text-3xl {
-                    font-size: 1.875rem;
-                    line-height: 2.25rem;
-                }
-                .md\:text-4xl {
-                    font-size: 2.25rem;
-                    line-height: 2.5rem;
-                }
-                .md\:text-5xl {
-                    font-size: 3rem;
-                    line-height: 1;
-                }
-                .md\:text-base {
-                    font-size: 1rem;
-                    line-height: 1.5rem;
-                }
-            }
-        </style>
-    </head>
-    <body class="bg-gradient-to-br from-green-50 via-white to-green-100">
-        <div id="app">
-            <!-- Header Section -->
-            <div style=" background: linear-gradient(135deg, #00d9ec 0%, #063939 100%);">
-                <div class="absolute inset-0 bg-blue opacity-10"></div>
-                <div class="relative container mx-auto px-4 py-8">
-                    <div
-                        class="text-center"
-                        style="
-                            opacity: 1;
-                            transform: translateY(0px);
-                            transition:
-                                opacity 0.6s,
-                                transform 0.6s;
-                        ">
-                        <div class="mb-6">
-                            <img
-                                src="https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/OqeQlR/nXCR6C2cOFuSv1iTLqtEoGAdovWmzeLmjn14NvN5.png"
-                                alt="شعار شركة الماجد للعود"
-                                class="mx-auto h-24 w-24 md:h-40 md:w-40 rounded-full shadow-2xl border-4 border-white/30 bg-white p-2 object-contain" />
-                        </div>
-                        <h1 class="text-3xl md:text-5xl font-bold mb-2 text-shadow" style="color: azure">شركة الماجد للعود</h1>
-                        <div class="flex items-center justify-center gap-2 text-lg md:text-2xl mb-4">
-                            <span class="text-2xl">🏆</span>
-                            <span style="color: antiquewhite">مسابقة موسم رمضان 2026</span>
-                            <span class="text-2xl">🏆</span>
-                        </div>
-                        <div
-                            class="flex items-center justify-center gap-2 text-yellow-200 text-xl md:text-2xl font-semibold">
-                            <span class="animate-pulse-slow">⭐</span>
-                            <span>✨ قيادة  مدراء الأقاليم ✨</span>
-                            <span class="animate-pulse-slow">⭐</span>
-                        </div>
-                    </div>
-                </div>
+header::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: radial-gradient(900px 450px at 50% 60%, rgba(0,0,0,.55), transparent 65%);
+  pointer-events:none;
+}
+
+/* 4) النصوص الكبيرة (بدون تدرجات ذهبية) */
+.bg-clip-text.text-transparent{
+  color: var(--text) !important;
+  background: none !important;
+  -webkit-text-fill-color: initial !important;
+}
+
+/* 5) الأقسام/الكروت: Glassmorphism */
+.bg-white, .bg-gradient-to-r, .bg-gradient-to-br{
+  background-image: none !important;
+}
+
+section.bg-white, .bg-white.rounded-3xl, .bg-white.rounded-2xl{
+  background: linear-gradient(180deg, var(--panel), var(--panel-2)) !important;
+  border: 1px solid var(--stroke) !important;
+  box-shadow: 0 20px 60px rgba(0,0,0,.45);
+}
+
+/* 6) العدّاد: نفس جو النيون */
+.from-amber-800.to-orange-800{
+  background: linear-gradient(135deg, rgba(255,37,74,.20), rgba(55,182,255,.18)) !important;
+  border: 1px solid rgba(255,255,255,.14);
+  box-shadow: 0 0 28px rgba(255,37,74,.18), 0 0 28px rgba(55,182,255,.10);
+}
+.text-yellow-200, .text-yellow-100, .text-yellow-300{
+  color: var(--text) !important;
+}
+
+/* 7) بادجات/دوائر الأرقام */
+.bg-orange-600, .bg-yellow-600, .bg-blue-500, .bg-green-500{
+  background: linear-gradient(135deg, rgba(255,37,74,.95), rgba(55,182,255,.85)) !important;
+  box-shadow: 0 0 18px rgba(255,37,74,.28), 0 0 18px rgba(55,182,255,.14);
+}
+
+/* 8) جداول الجوائز (بدل الأصفر/البرتقالي) */
+.border-orange-200, .border-yellow-200, .border-orange-100{
+  border-color: var(--stroke) !important;
+}
+
+.from-amber-50.to-orange-50,
+.from-yellow-50.to-amber-50{
+  background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03)) !important;
+}
+
+.from-yellow-400.to-amber-400{
+  background: linear-gradient(135deg, rgba(255,37,74,.40), rgba(55,182,255,.28)) !important;
+}
+.from-orange-300.to-yellow-300,
+.from-amber-300.to-yellow-300{
+  background: linear-gradient(135deg, rgba(55,182,255,.22), rgba(255,37,74,.22)) !important;
+  color: var(--text) !important;
+}
+.from-amber-200.to-orange-200,
+.from-yellow-200.to-amber-200{
+  background: linear-gradient(135deg, rgba(255,255,255,.10), rgba(255,255,255,.05)) !important;
+  color: var(--text) !important;
+}
+
+/* 9) البلوك الأزرق "ملاحظة مهمة" خليها بنفس الثيم */
+.from-blue-50.to-indigo-50{
+  background: linear-gradient(135deg, rgba(55,182,255,.14), rgba(255,37,74,.10)) !important;
+  border-color: rgba(55,182,255,.18) !important;
+}
+.text-blue-800, .text-blue-700{
+  color: var(--text) !important;
+}
+
+/* 10) قسم التحفيز */
+#currentQuote{
+  text-shadow: 0 0 18px rgba(255,37,74,.18), 0 0 18px rgba(55,182,255,.10);
+}
+.from-orange-600.to-amber-600{
+  background: linear-gradient(135deg, rgba(255,37,74,.55), rgba(55,182,255,.35)) !important;
+  border: 1px solid rgba(255,255,255,.14);
+}
+
+/* 11) الفوتر */
+footer{
+  background: linear-gradient(180deg, #050713, #02030a) !important;
+  border-top: 1px solid var(--stroke);
+}
+     
+     /* ======== HERO HEADER WITH IMAGE ======== */
+
+
+/* تأثير تعتيم جانبي للنص */
+header::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: radial-gradient(circle at center,
+              rgba(255,0,60,.25) 0%,
+              rgba(0,0,0,.75) 60%);
+  pointer-events:none;
+}
+
+/* نص العنوان */
+header h1{
+  font-size: 3.5rem;
+  color: #ffffff !important;
+  text-shadow: 0 0 25px rgba(255,0,60,.5);
+}
+
+header h2{
+  font-size: 2rem;
+  color: #d9e4ff !important;
+  text-shadow: 0 0 20px rgba(0,120,255,.4);
+}
+
+header p{
+  color: #cccccc !important;
+}
+
+/* إزالة التدرجات الذهبية القديمة */
+header .bg-clip-text{
+  background: none !important;
+  -webkit-text-fill-color: white !important;
+}
+      /* Tailwind CSS Reset and Base */
+      *, ::before, ::after {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+        border-color: #e5e7eb;
+      }
+      
+      html {
+        line-height: 1.5;
+        -webkit-text-size-adjust: 100%;
+        -moz-tab-size: 4;
+        tab-size: 4;
+        font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-feature-settings: normal;
+        font-variation-settings: normal;
+      }
+      
+      body {
+        margin: 0;
+        line-height: inherit;
+        font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        direction: rtl;
+      }
+      
+      /* Utility Classes */
+      .min-h-screen { min-height: 100vh; }
+      .bg-gradient-to-br { background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)); }
+      .from-amber-50 { --tw-gradient-from: #fffbeb; --tw-gradient-to: rgb(255 251 235 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .via-orange-50 { --tw-gradient-to: rgb(255 247 237 / 0); --tw-gradient-stops: var(--tw-gradient-from), #fff7ed, var(--tw-gradient-to); }
+      .to-yellow-50 { --tw-gradient-to: #fefce8; }
+      
+      .relative { position: relative; }
+      .absolute { position: absolute; }
+      .inset-0 { inset: 0px; }
+      .overflow-hidden { overflow: hidden; }
+      
+      .bg-gradient-to-r { background-image: linear-gradient(to right, var(--tw-gradient-stops)); }
+      .from-amber-900 { --tw-gradient-from: #0a333c; --tw-gradient-to: rgb(120 53 15 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .via-yellow-800 { --tw-gradient-to: rgb(133 77 14 / 0); --tw-gradient-stops: var(--tw-gradient-from), #486fa9, var(--tw-gradient-to); }
+      .to-orange-900 { --tw-gradient-to: #062a35; }
+      
+      .text-white { color: rgb(255 255 255); }
+      .bg-black\/20 { background-color: rgb(0 0 0 / 0.2); }
+      .bg-gradient-to-r { background-image: linear-gradient(to right, var(--tw-gradient-stops)); }
+      .from-yellow-600\/10 { --tw-gradient-from: rgb(202 138 4 / 0.1); --tw-gradient-to: rgb(202 138 4 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-orange-600\/10 { --tw-gradient-to: rgb(234 88 12 / 0.1); }
+      
+      .container { width: 100%; margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem; }
+      @media (min-width: 640px) { .container { max-width: 640px; } }
+      @media (min-width: 768px) { .container { max-width: 768px; } }
+      @media (min-width: 1024px) { .container { max-width: 1024px; } }
+      @media (min-width: 1280px) { .container { max-width: 1280px; } }
+      
+      .mx-auto { margin-left: auto; margin-right: auto; }
+      .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+      .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+      
+      .text-center { text-align: center; }
+      .space-y-6 > :not([hidden]) ~ :not([hidden]) { margin-top: 1.5rem; }
+      
+      .inline-block { display: inline-block; }
+      .p-4 { padding: 1rem; }
+      .bg-white\/10 { background-color: rgb(255 255 255 / 0.1); }
+      .backdrop-blur-sm { backdrop-filter: blur(4px); }
+      .rounded-full { border-radius: 9999px; }
+      .mb-4 { margin-bottom: 1rem; }
+      
+      .w-20 { width: 5rem; }
+      .h-20 { height: 5rem; }
+      .object-contain { object-fit: contain; }
+      
+      .text-5xl { font-size: 3rem; line-height: 1; }
+      .font-bold { font-weight: 700; }
+      .bg-gradient-to-r { background-image: linear-gradient(to right, var(--tw-gradient-stops)); }
+      .from-yellow-300 { --tw-gradient-from: #000000; --tw-gradient-to: rgb(253 224 71 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .via-orange-200 { --tw-gradient-to: rgb(254 215 170 / 0); --tw-gradient-stops: var(--tw-gradient-from), #ffffff, var(--tw-gradient-to); }
+      .to-yellow-400 { --tw-gradient-to: #000000; }
+      .bg-clip-text { background-clip: text; }
+      .text-transparent { color: transparent; }
+      
+      .flex { display: flex; }
+      .items-center { align-items: center; }
+      .justify-center { justify-content: center; }
+      .space-x-4 > :not([hidden]) ~ :not([hidden]) { margin-left: 1rem; }
+      .space-x-reverse > :not([hidden]) ~ :not([hidden]) { margin-left: 0; margin-right: 1rem; }
+      
+      .w-8 { width: 2rem; }
+      .h-8 { height: 2rem; }
+      .text-yellow-300 { color: #ffffff; }
+      .animate-spin { animation: spin 1s linear infinite; }
+      
+      .text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+      .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+      .text-yellow-100 { color: #ffffff; }
+      .max-w-3xl { max-width: 48rem; }
+      .leading-relaxed { line-height: 1.625; }
+      
+      .bg-gradient-to-r { background-image: linear-gradient(to right, var(--tw-gradient-stops)); }
+      .from-orange-100 { --tw-gradient-from: #052335; --tw-gradient-to: rgb(255 237 213 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-yellow-100 { --tw-gradient-to: #052335; }
+      
+      .mb-8 { margin-bottom: 2rem; }
+      .text-amber-900 { color: #ffffff; }
+      .gap-3 { gap: 0.75rem; }
+      .animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+      .text-orange-600 { color: #ffffff; }
+      
+      .space-x-reverse > :not([hidden]) ~ :not([hidden]) { margin-left: 0; margin-right: 1rem; }
+      .bg-gradient-to-br { background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)); }
+      .from-amber-800 { --tw-gradient-from: #ffffff; --tw-gradient-to: rgb(146 64 14 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-orange-800 { --tw-gradient-to: #1566cd; }
+      .rounded-2xl { border-radius: 1rem; }
+      .shadow-2xl { box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25); }
+      .p-6 { padding: 1.5rem; }
+      .min-w-\[100px\] { min-width: 100px; }
+      .transform { transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)); }
+      .hover\:scale-105:hover { --tw-scale-x: 1.05; --tw-scale-y: 1.05; }
+      .transition-transform { transition-property: transform; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+      
+      .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+      .mt-2 { margin-top: 0.5rem; }
+      .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+      .text-yellow-200 { color: #000000; }
+      
+      .mt-8 { margin-top: 2rem; }
+      .text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+      .text-amber-800 { color: #ffffff; }
+      .font-semibold { font-weight: 600;  }
+      
+      
+      .bg-white { background-color: #dfecf3;}
+      .rounded-3xl { border-radius: 1.5rem; }
+      .p-8 { padding: 2rem; }
+      .border { border-width: 1px; }
+      .border-orange-100 { border-color: #011218; }
+      
+      .mb-6 { margin-bottom: 1.5rem; }
+      .grid { display: grid; }
+      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .gap-6 { gap: 1.5rem; }
+      
+      .space-y-4 > :not([hidden]) ~ :not([hidden]) { margin-top: 1rem; }
+      .items-start { align-items: flex-start; }
+      .space-x-3 > :not([hidden]) ~ :not([hidden]) { margin-left: 0.75rem; }
+      .from-orange-50 { --tw-gradient-from: #09203a; --tw-gradient-to: rgb(255 247 237 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-yellow-50 { --tw-gradient-to: #0b394c; }
+      .rounded-xl { border-radius: 0.75rem; }
+      
+      .bg-orange-600 { background-color: #0baffe; }
+      .rounded-full { border-radius: 9999px; }
+      .font-medium { font-weight: 500; }
+      .text-gray-700 { color: #ffffff; }
+      
+      .from-yellow-50 { --tw-gradient-from: #ffffff; --tw-gradient-to: rgb(254 252 232 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-orange-50 { --tw-gradient-to: #fff7ed; }
+      .bg-yellow-600 { background-color: #0b173a; }
+      
+      .from-amber-100 { --tw-gradient-from: #08283a; --tw-gradient-to: rgb(254 243 199 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-orange-100 { --tw-gradient-to: #10388a; }
+      
+      .justify-between { justify-content: space-between; }
+      .border-l-4 { border-left-width: 4px; }
+      .border-blue-500 { border-color: #3b82f6; }
+      .from-blue-50 { --tw-gradient-from: #eff6ff; --tw-gradient-to: rgb(239 246 255 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-indigo-50 { --tw-gradient-to: #eef2ff; }
+      .text-blue-800 { color: #1e40af; }
+      .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+      .text-blue-600 { color: #2563eb; }
+      
+      .border-green-500 { border-color: #000000; }
+      .from-green-50 { --tw-gradient-from: #f0fdf4; --tw-gradient-to: rgb(240 253 244 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-emerald-50 { --tw-gradient-to: #ecfdf5; }
+      .text-green-800 { color: #166534; }
+      .text-green-600 { color: #16a34a; }
+      
+      .border-purple-500 { border-color: #a855f7; }
+      .from-purple-50 { --tw-gradient-from: #faf5ff; --tw-gradient-to: rgb(250 245 255 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-violet-50 { --tw-gradient-to: #f5f3ff; }
+      .text-purple-800 { color: #6b21a8; }
+      .text-purple-600 { color: #9333ea; }
+      
+      .border-pink-500 { border-color: #ec4899; }
+      .from-pink-50 { --tw-gradient-from: #fdf2f8; --tw-gradient-to: rgb(253 242 248 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-rose-50 { --tw-gradient-to: #fff1f2; }
+      .text-pink-800 { color: #9d174d; }
+      .text-pink-600 { color: #db2777; }
+      
+      .border-orange-500 { border-color: #f97316; }
+      .text-orange-800 { color: #9a3412; }
+      .text-orange-600 { color: #ea580c; }
+      .text-gray-600 { color: #4b5563; }
+      
+      .gap-8 { gap: 2rem; }
+      .from-amber-50 { --tw-gradient-from: #fffbeb; --tw-gradient-to: rgb(255 251 235 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .border-orange-200 { border-color: #fed7aa; }
+      .text-orange-600 { color: #ea580c; }
+      
+      .from-yellow-50 { --tw-gradient-from: #fefce8; --tw-gradient-to: rgb(254 252 232 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-amber-50 { --tw-gradient-to: #fffbeb; }
+      .border-yellow-200 { border-color: #fef08a; }
+      .text-yellow-800 { color: #854d0e; }
+      .text-yellow-600 { color: #ca8a04; }
+      
+      .opacity-5 { opacity: 0.05; }
+      .top-10 { top: 2.5rem; }
+      .left-10 { left: 2.5rem; }
+      .bg-orange-300 { background-color: #fdba74; }
+      .animate-bounce { animation: bounce 1s infinite; }
+      
+      .top-32 { top: 8rem; }
+      .right-16 { right: 4rem; }
+      .w-16 { width: 4rem; }
+      .h-16 { height: 4rem; }
+      .bg-yellow-300 { background-color: #fde047; }
+      
+      .bottom-20 { bottom: 5rem; }
+      .left-20 { left: 5rem; }
+      .w-12 { width: 3rem; }
+      .h-12 { height: 3rem; }
+      .bg-amber-300 { background-color: #fcd34d; }
+      .animate-ping { animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite; }
+      
+      .bottom-32 { bottom: 8rem; }
+      .right-32 { right: 8rem; }
+      .w-14 { width: 3.5rem; }
+      .h-14 { height: 3.5rem; }
+      .bg-orange-400 { background-color: #fb923c; }
+      
+      .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .hover\:shadow-2xl:hover { box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25); }
+      .transition-all { transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+      .duration-300 { transition-duration: 300ms; }
+      .hover\:scale-105:hover { --tw-scale-x: 1.05; --tw-scale-y: 1.05; }
+      .hover\:-translate-y-2:hover { --tw-translate-y: -0.5rem; }
+      .cursor-pointer { cursor: pointer; }
+      .group { }
+      
+      .from-orange-200\/0 { --tw-gradient-from: rgb(254 215 170 / 0); --tw-gradient-to: rgb(254 215 170 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .via-yellow-200\/20 { --tw-gradient-to: rgb(254 240 138 / 0); --tw-gradient-stops: var(--tw-gradient-from), rgb(254 240 138 / 0.2), var(--tw-gradient-to); }
+      .to-orange-200\/0 { --tw-gradient-to: rgb(254 215 170 / 0); }
+      .translate-x-\[-100\%\] { --tw-translate-x: -100%; }
+      .group-hover\:translate-x-\[100\%\]:hover { --tw-translate-x: 100%; }
+      .transition-transform { transition-property: transform; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+      .duration-700 { transition-duration: 700ms; }
+      
+      .z-10 { z-index: 10; }
+      .group-hover\:text-orange-900:hover { color: #7c2d12; }
+      .transition-colors { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+      
+      .to-indigo-100 { --tw-gradient-to: #e0e7ff; }
+      .hover\:shadow-xl:hover { box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04); }
+      .bg-blue-500 { background-color: #3b82f6; }
+      .text-blue-700 { color: #1d4ed8; }
+      
+      .to-emerald-100 { --tw-gradient-to: #dcfce7; }
+      .bg-green-500 { background-color: #22c55e; }
+      .text-green-700 { color: #15803d; }
+      
+      .mt-12 { margin-top: 3rem; }
+      .from-orange-600 { --tw-gradient-from: #ea580c; --tw-gradient-to: rgb(234 88 12 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-amber-600 { --tw-gradient-to: #d97706; }
+      .hover\:shadow-3xl:hover { box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25); }
+      .duration-500 { transition-duration: 500ms; }
+      .from-transparent { --tw-gradient-from: transparent; --tw-gradient-to: rgb(0 0 0 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .via-white\/10 { --tw-gradient-to: rgb(255 255 255 / 0); --tw-gradient-stops: var(--tw-gradient-from), rgb(255 255 255 / 0.1), var(--tw-gradient-to); }
+      .to-transparent { --tw-gradient-to: transparent; }
+      
+      .mt-6 { margin-top: 1.5rem; }
+      .space-x-4 > :not([hidden]) ~ :not([hidden]) { margin-left: 1rem; }
+      .w-6 { width: 1.5rem; }
+      .h-6 { height: 1.5rem; }
+      
+      .w-16 { width: 4rem; }
+      .h-16 { height: 4rem; }
+      
+      /* Additional styles for the new sections */
+      .border-2 { border-width: 2px; }
+      .shadow-xl { box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04); }
+      .from-yellow-400 { --tw-gradient-from: #facc15; --tw-gradient-to: rgb(250 204 21 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-orange-400 { --tw-gradient-to: #fb923c; }
+      .from-orange-300 { --tw-gradient-from: #fdba74; --tw-gradient-to: rgb(253 186 116 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-yellow-300 { --tw-gradient-to: #fde047; }
+      .from-amber-200 { --tw-gradient-from: #fde68a; --tw-gradient-to: rgb(253 230 138 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-orange-200 { --tw-gradient-to: #fed7aa; }
+      .text-gray-800 { color: #1f2937; }
+      .from-amber-300 { --tw-gradient-from: #fcd34d; --tw-gradient-to: rgb(252 211 77 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-yellow-300 { --tw-gradient-to: #fde047; }
+      .from-yellow-200 { --tw-gradient-from: #fef08a; --tw-gradient-to: rgb(254 240 138 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-amber-200 { --tw-gradient-to: #fde68a; }
+      .from-yellow-400 { --tw-gradient-from: #facc15; --tw-gradient-to: rgb(250 204 21 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+      .to-amber-400 { --tw-gradient-to: #fbbf24; }
+      .text-amber-600 { color: #d97706; }
+      .border-blue-200 { border-color: #dbeafe; }
+      .flex-shrink-0 { flex-shrink: 0; }
+      .mt-1 { margin-top: 0.25rem; }
+      .mr-1 { margin-right: 0.25rem; }
+      .space-y-3 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.75rem; }
+      .shadow-lg { box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05); }
+      .orange-100 { background-color: #ffedd5; }
+      .yellow-100 { background-color: #fef3c7; }
+      
+      /* Animations */
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+      
+      @keyframes pulse {
+        50% { opacity: .5; }
+      }
+      
+      @keyframes bounce {
+        0%, 100% {
+          transform: translateY(-25%);
+          animation-timing-function: cubic-bezier(0.8,0,1,1);
+        }
+        50% {
+          transform: none;
+          animation-timing-function: cubic-bezier(0,0,0.2,1);
+        }
+      }
+      
+      @keyframes ping {
+        75%, 100% {
+          transform: scale(2);
+          opacity: 0;
+        }
+      }
+      
+      /* Custom animations */
+      .animate-fadeIn {
+        animation: fadeIn 0.5s ease-in-out;
+      }
+      
+      .animate-slideUp {
+        animation: slideUp 0.6s ease-out;
+      }
+      
+      .animate-bounce-slow {
+        animation: bounce 2s infinite;
+      }
+      
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      @keyframes slideUp {
+        from {
+          opacity: 0;
+          transform: translateY(50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(to bottom, #d97706, #ea580c);
+        border-radius: 10px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(to bottom, #b45309, #c2410c);
+      }
+      
+      /* تحسين النصوص العربية */
+      .text-arabic {
+        font-feature-settings: "liga" 1, "kern" 1, "calt" 1;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      /* تأثيرات التفاعل */
+      .hover-lift {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      .hover-lift:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      }
+      
+      /* تدرجات مخصصة */
+      .gradient-gold {
+        background: linear-gradient(135deg, #fbbf24, #f59e0b, #d97706, #b45309);
+      }
+      
+      .gradient-wood {
+        background: linear-gradient(135deg, #92400e, #b45309, #d97706, #f59e0b);
+      }
+      
+      /* أنيميشن للبطاقات */
+      .card-animate {
+        animation: cardFloat 6s ease-in-out infinite;
+      }
+      
+      @keyframes cardFloat {
+        0%, 100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+      
+      /* تأثيرات الضوء */
+      .glow {
+        box-shadow: 0 0 20px rgba(251, 191, 36, 0.3);
+      }
+      
+      .glow:hover {
+        box-shadow: 0 0 30px rgba(251, 191, 36, 0.5);
+      }
+      
+      /* تأثيرات إضافية للحركة */
+      @keyframes float {
+        0%, 100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+      }
+      
+      @keyframes shimmer {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
+      
+      .animate-float {
+        animation: float 3s ease-in-out infinite;
+      }
+      
+      .animate-shimmer {
+        animation: shimmer 2s infinite;
+      }
+      
+      /* تحسينات الجوال */
+      @media (max-width: 768px) {
+        .container {
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
+        }
+        
+        .px-6 {
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+        
+        .py-12 {
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+        }
+        
+        .text-5xl {
+          font-size: 2.25rem;
+        }
+        
+        .text-3xl {
+          font-size: 1.5rem;
+        }
+        
+        .text-xl {
+          font-size: 1.125rem;
+        }
+        
+        .p-8 {
+          padding: 1.5rem;
+        }
+        
+        .p-6 {
+          padding: 1rem;
+        }
+        
+        .p-4 {
+          padding: 0.75rem;
+        }
+        
+        .space-y-12 > :not([hidden]) ~ :not([hidden]) {
+          margin-top: 2rem;
+        }
+        
+        .gap-8 {
+          gap: 1.5rem;
+        }
+        
+        .gap-6 {
+          gap: 1rem;
+        }
+        
+        .rounded-3xl {
+          border-radius: 1rem;
+        }
+        
+        .rounded-2xl {
+          border-radius: 0.75rem;
+        }
+        
+        /* تحسين العد التنازلي للجوال */
+        .countdown-container {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 0.5rem;
+        }
+        
+        .countdown-item {
+          min-width: 70px;
+          padding: 0.75rem;
+        }
+        
+        .countdown-item .text-3xl {
+          font-size: 1.5rem;
+        }
+        
+        /* تحسين الجداول للجوال */
+        .table-container {
+          overflow-x: auto;
+          width: 100%;
+        }
+        
+        .points-table {
+          min-width: 500px;
+        }
+        
+        /* تحسين آلية المسابقة */
+        .mechanism-grid {
+          grid-template-columns: 1fr !important;
+          gap: 1rem;
+        }
+        
+        /* تحسين آلية التوزيع */
+        .distribution-item {
+          padding: 0.75rem;
+        }
+        
+        .distribution-item .text-2xl {
+          font-size: 1.25rem;
+        }
+        
+        /* تحسين الأمثلة التوضيحية */
+        .examples-grid {
+          grid-template-columns: 1fr !important;
+        }
+        
+        /* تحسين العبارات التحفيزية */
+        .quotes-grid {
+          grid-template-columns: 1fr !important;
+        }
+        
+        #currentQuote {
+          font-size: 1.25rem;
+        }
+        
+        /* تحسين الهيدر */
+        header .text-5xl {
+          font-size: 2rem;
+        }
+        
+        header .text-3xl {
+          font-size: 1.25rem;
+        }
+        
+        header .space-y-6 {
+          gap: 1rem;
+        }
+        
+        /* تحسين الفوتر */
+        footer .text-2xl {
+          font-size: 1.25rem;
+        }
+        
+        footer .text-lg {
+          font-size: 1rem;
+        }
+      }
+      
+      /* تحسينات إضافية للشاشات الصغيرة جدًا */
+      @media (max-width: 480px) {
+        .countdown-item {
+          min-width: 60px;
+          padding: 0.5rem;
+        }
+        
+        .countdown-item .text-3xl {
+          font-size: 1.25rem;
+        }
+        
+        .countdown-item .text-sm {
+          font-size: 0.75rem;
+        }
+        
+        .p-8 {
+          padding: 1rem;
+        }
+        
+        .text-4xl {
+          font-size: 1.5rem;
+        }
+        
+        .text-2xl {
+          font-size: 1.25rem;
+        }
+        
+        .text-lg {
+          font-size: 1rem;
+        }
+      }
+      
+      /* Responsive */
+      @media (min-width: 768px) {
+        .md\:text-6xl { font-size: 3.75rem; line-height: 1; }
+        .md\:text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+        .md\:text-2xl { font-size: 1.5rem; line-height: 2rem; }
+        .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      }
+      
+      @media (min-width: 1024px) {
+        .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      }
+    </style>  </head><body>
+    <div class="min-h-screen bg-gradient-to-br from-amber-50 via-Blue-50 to-yellow-50">
+      <!-- Header -->
+      <header class="relative overflow-hidden bg-gradient-to-r from-amber-900 via-yellow-800 to-orange-900 text-white">
+
+       
+        
+        <div class="relative container mx-auto px-6 py-12">
+          <div class="text-center space-y-6">
+            <div class="inline-block p-4 bg-white/10 backdrop-blur-sm rounded-full mb-4" , style="background-color: white">
+              <img src="https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/OqeQlR/nXCR6C2cOFuSv1iTLqtEoGAdovWmzeLmjn14NvN5.png" alt="شعار شركة الماجد للعود" class="w-20 h-20 object-contain">
             </div>
-
-            <!-- Countdown Timer -->
-            <div class="bg-white shadow-xl border-t-4 border-green-500">
-                <div class="container mx-auto px-4 py-6">
-                    <div
-                        class="text-center mb-4"
-                        style="
-                            opacity: 1;
-                            transform: translateY(0px);
-                            transition:
-                                opacity 0.6s,
-                                transform 0.6s;
-                        ">
-                        <h2
-                            class="text-2xl md:text-3xl font-bold text-green-800 mb-2 flex items-center justify-center gap-2">
-                            <span class="text-2xl">📅</span>
-                            الوقت المتبقي لانتهاء المسابقة
-                        </h2>
-                    </div>
-                    <div
-                        class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto"
-                        id="countdown"
-                        style="
-                            opacity: 1;
-                            transform: translateY(0px);
-                            transition:
-                                opacity 0.6s,
-                                transform 0.6s;
-                        ">
-                        <div
-                            class="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-xl p-4 shadow-lg transform hover:scale-105 transition-transform duration-300" style=" background: linear-gradient(135deg, #000000 0%, #80c8c8 100%);">
-                            <div class="text-2xl md:text-4xl font-bold mb-1" id="days">00</div>
-                            <div class="text-sm md:text-base font-semibold">يوم</div>
-                        </div>
-                        <div
-                            class="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-xl p-4 shadow-lg transform hover:scale-105 transition-transform duration-300" style=" background: linear-gradient(135deg, #000000 0%, #80c8c8 100%);">
-                            <div class="text-2xl md:text-4xl font-bold mb-1" id="hours">00</div>
-                            <div class="text-sm md:text-base font-semibold">ساعة</div>
-                        </div>
-                        <div
-                            class="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-xl p-4 shadow-lg transform hover:scale-105 transition-transform duration-300" style=" background: linear-gradient(135deg, #000000 0%, #80c8c8 100%);">
-                            <div class="text-2xl md:text-4xl font-bold mb-1" id="minutes">00</div>
-                            <div class="text-sm md:text-base font-semibold">دقيقة</div>
-                        </div>
-                        <div
-                            class="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-xl p-4 shadow-lg transform hover:scale-105 transition-transform duration-300" style=" background: linear-gradient(135deg, #000000 0%, #80c8c8 100%);">
-                            <div class="text-2xl md:text-4xl font-bold mb-1" id="seconds">00</div>
-                            <div class="text-sm md:text-base font-semibold">ثانية</div>
-                        </div>
-                    </div>
-                </div>
+            
+            <h1 class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-yellow-300 via-orange-200 to-yellow-400 bg-clip-text text-transparent">
+              شركة الماجد للعود
+            </h1>
+            
+            <div class="flex items-center justify-center space-x-4 space-x-reverse">
+              <svg class="w-8 h-8 text-yellow-300 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+              </svg>
+              <h2 class="text-3xl md:text-4xl font-bold">&nbsp;مسابقة موسم رمضان 2026</h2>
+              <svg class="w-8 h-8 text-yellow-300 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+              </svg>
             </div>
-
-            <!-- Motivational Quote Section -->
-            <div class="bg-gradient-to-r from-yellow-50 to-orange-50 py-8">
-                <div class="container mx-auto px-4">
-                    <div
-                        class="text-center"
-                        style="
-                            opacity: 1;
-                            transform: translateY(0px);
-                            transition:
-                                opacity 0.6s,
-                                transform 0.6s;
-                        ">
-                        <div
-                            class="bg-white rounded-2xl shadow-xl p-6 md:p-8 max-w-4xl mx-auto border-2 border-blue-200">
-                            <div class="flex items-center justify-center gap-2 mb-4">
-                                <span class="text-2xl animate-bounce-slow">⭐</span>
-                                <h3 class="text-xl md:text-2xl font-bold text-green-800">عبارة تحفيزية</h3>
-                                <span class="text-2xl animate-bounce-slow">⭐</span>
-                            </div>
-                            <p
-                                class="text-lg md:text-2xl font-semibold text-gray-800 leading-relaxed animate-fade-in"
-                                id="motivational-quote"
-                                style="opacity: 1">
-                                ✨ "كل نقطة تحققها… ترفع راية منطقتك أعلى." ✨
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Competition Details -->
-            <div class="container mx-auto px-4 py-8">
-                <div
-                    class="grid gap-8"
-                    style="
-                        opacity: 1;
-                        transform: translateY(0px);
-                        transition:
-                            opacity 0.6s,
-                            transform 0.6s;
-                    ">
-                    <!-- Competition Period -->
-                    <div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 border-2 border-green-200">
-                        <h3 class="text-2xl md:text-3xl font-bold text-green-800 mb-6 flex items-center gap-2">
-                            <span class="text-2xl">📅</span>
-                            فترة المسابقة
-                        </h3>
-                        <div class="text-center bg-gradient-to-r from-blue-100 to-blue-50 p-6 rounded-xl">
-                            <p class="text-xl md:text-2xl font-bold text-green-800">
-                                من الثلاثاء 10/02/2026م حتى السبت 14/02/2026م
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Competition Mechanism -->
-                    <div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 border-2 border-blue-200">
-                        <h3 class="text-2xl md:text-3xl font-bold text-blue-800 mb-6 flex items-center gap-2">
-                            <span class="text-2xl">📌</span>
-                            آلية المسابقة
-                        </h3>
-                        <div class="space-y-4">
-                            <div class="flex items-start gap-3 p-4 bg-blue-50 rounded-xl">
-                                <div
-                                    class="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-sm">
-                                    1
-                                </div>
-                                <p class="text-lg text-gray-800">لكل مدير منطقة هدف يومي محدد يُرسل له مباشرة.</p>
-                            </div>
-                            <div class="flex items-start gap-3 p-4 bg-blue-50 rounded-xl">
-                                <div
-                                    class="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-sm">
-                                    2
-                                </div>
-                                <p class="text-lg text-gray-800">عند تحقيق الهدف اليومي يحصل المدير على نقطة واحدة.</p>
-                            </div>
-                            <div class="flex items-start gap-3 p-4 bg-blue-50 rounded-xl">
-                                <div
-                                    class="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-sm">
-                                    3
-                                </div>
-                                <p class="text-lg text-gray-800">
-                                    النقاط تتراكم عبر أيام المسابقة لتحدد قيمة المكافأة النهائية.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Prize Table -->
-                    <div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 border-2 border-blue-200">
-                        <h3 class="text-2xl md:text-3xl font-bold text-yellow-800 mb-6 flex items-center gap-2">
-                            <span class="text-2xl">🏆</span>
-                            📊 جدول الجوائز - مدراء الأقاليم
-                        </h3>
-                        <div class="overflow-x-auto">
-                            <table class="w-full">
-                                <thead>
-                                    <tr class="bg-gradient-to-r from-blue-100 to-blue-100">
-                                        <th class="p-4 text-right text-lg font-bold text-gray-800 rounded-tr-xl">
-                                            المركز
-                                        </th>
-                                        <th class="p-4 text-center text-lg font-bold text-gray-800">عدد النقاط</th>
-                                        <th class="p-4 text-center text-lg font-bold text-gray-800 rounded-tl-xl">
-                                            قيمة المكافأة (ريال)
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="bg-gray-50 hover:bg-blue-50 transition-colors duration-200">
-                                        <td class="p-4 text-right">
-                                            <div class="flex items-center gap-2">
-                                                <span class="text-2xl">🥇</span>
-                                                <span class="font-semibold text-lg">الأول</span>
-                                            </div>
-                                        </td>
-                                        <td class="p-4 text-center">
-                                            <span
-                                                class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-bold text-lg">
-                                                5 نقاط
-                                            </span>
-                                        </td>
-                                        <td class="p-4 text-center">
-                                            <span
-                                                class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-bold text-lg">
-                                                2000 ريال
-                                            </span>
-                                        </td>
-                                    </tr>
-                                   
-                                    <tr class="bg-white hover:bg-blue-50 transition-colors duration-200">
-                                        
-                                        <td class="p-4 text-right">
-                                            <div class="flex items-center gap-2">
-                                                <span class="text-2xl">🥈</span>
-                                                <span class="font-semibold text-lg">الثاني</span>
-                                            </div>
-                                        </td>
-                                        <td class="p-4 text-center">
-                                            <span
-                                                class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-bold text-lg">
-                                                4 نقاط
-                                            </span>
-                                        </td>
-                                        <td class="p-4 text-center">
-                                            <span
-                                                class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-bold text-lg">
-                                                1500 ريال
-                                            </span>
-                                        </td>
-                                    </tr>
-                                    <tr class="bg-gray-50 hover:bg-blue-50 transition-colors duration-200">
-                                        <td class="p-4 text-right">
-                                            <div class="flex items-center gap-2">
-                                                <span class="text-2xl">🥉</span>
-                                                <span class="font-semibold text-lg">الثالث</span>
-                                            </div>
-                                        </td>
-                                        <td class="p-4 text-center">
-                                            <span
-                                                class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-bold text-lg">
-                                                3 نقاط
-                                            </span>
-                                        </td>
-                                        <td class="p-4 text-center">
-                                            <span
-                                                class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-bold text-lg">
-                                                1200 ريال
-                                            </span>
-                                        </td>
-                                    </tr>
-                                    <tr class="bg-white hover:bg-blue-50 transition-colors duration-200">
-                                        <td class="p-4 text-right">
-                                            <div class="flex items-center gap-2">
-                                                <span class="text-2xl">⭐</span>
-                                                <span class="font-semibold text-lg">الرابع</span>
-                                            </div>
-                                        </td>
-                                        <td class="p-4 text-center">
-                                            <span
-                                                class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-bold text-lg">
-                                                2 نقاط
-                                            </span>
-                                        </td>
-                                        <td class="p-4 text-center">
-                                            <span
-                                                class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-bold text-lg">
-                                                700 ريال
-                                            </span>
-                                        </td>
-                                    </tr>
-                                    <tr class="bg-gray-50 hover:bg-blue-50 transition-colors duration-200">
-                                        <td class="p-4 text-right">
-                                            <div class="flex items-center gap-2">
-                                                <span class="text-2xl">🎯</span>
-                                                <span class="font-semibold text-lg">الخامس</span>
-                                            </div>
-                                        </td>
-                                        <td class="p-4 text-center">
-                                            <span
-                                                class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-bold text-lg">
-                                                1 نقطة
-                                            </span>
-                                        </td>
-                                        <td class="p-4 text-center">
-                                            <span
-                                                class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-bold text-lg">
-                                                300 ريال
-                                            </span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <!-- Example Section -->
-                    
-                </div>
-            </div>
-
-            <!-- Footer -->
-            <div class="bg-gradient-to-r from-blue-800 to-blue-900 text-white py-8" style="background: linear-gradient(135deg, #000000 0%, #80c8bd 100%);">
-                <div class="container mx-auto px-4 text-center">
-                    <div
-                        class="mb-4"
-                        style="
-                            opacity: 1;
-                            transform: translateY(0px);
-                            transition:
-                                opacity 0.6s,
-                                transform 0.6s;
-                        ">
-                        <span class="text-4xl mb-2 block">🏅</span>
-                        <p class="text-xl md:text-2xl font-bold">🚀 في التميز والإنجاز نصنع المستقبل</p>
-                    </div>
-                    <p class="text-lg opacity-90">شركة الماجد للعود - رؤية 2030</p>
-                </div>
-            </div>
+            
+            <p class="text-xl md:text-2xl text-yellow-100 max-w-3xl mx-auto leading-relaxed">
+              مرحبًا بكم مدراء الأقاليم ، الفوز للأفضل</p>
+          </div>
         </div>
+      </header>
 
-        <script>
-            // Motivational quotes array
-            const motivationalQuotes = [
-                "ريادة المنطقة تبدأ بخطوة قائدها.",
-                "كل نقطة تحققها… ترفع راية منطقتك أعلى.",
-                "القائد الملهم هو من يحوّل الأهداف إلى واقع.",
-                "بقوة إدارتك… تصنع قصة نجاح لفريقك ومنطقتك.",
-                "اليوم قرارك، وغدًا إنجاز منطقتك.",
-                "المنافسة ليست بين المناطق… بل بين القادة العظماء.",
-                "كل نقطة وسام شرف يُعلّق باسمك.",
-                "قيادتك ليست كلمات… بل نتائج تُثبت مكانتك.",
-                "المدير الناجح يقود بالأهداف… ويحصد الإنجازات.",
-                "أنت بوصلة فريقك… فإذا اتجهت نحو القمة، وصلوا جميعًا."
-            ];
+      <!-- العد التنازلي -->
+      <section class="py-12 bg-gradient-to-r from-orange-100 to-yellow-100">
+        <div class="container mx-auto px-6" style="background-color: w">
+          <div class="text-center mb-8">
+            <h3 class="text-3xl font-bold text-amber-900 mb-4 flex items-center justify-center gap-3">
+              <svg class="w-8 h-8 animate-pulse text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              المتبقي لانتهاء المسابقة
+            </h3>
+          </div>
+          
+          <div class="flex justify-center items-center space-x-4 space-x-reverse">
+            <div class="text-center">
+              <div class="bg-gradient-to-br from-amber-800 to-orange-800 text-white rounded-2xl shadow-2xl p-6 min-w-[100px] transform hover:scale-105 transition-transform">
+                <div class="text-3xl md:text-4xl font-bold" id="days">0</div>
+                <div class="text-sm mt-2 text-yellow-200">أيام</div>
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="bg-gradient-to-br from-amber-800 to-orange-800 text-white rounded-2xl shadow-2xl p-6 min-w-[100px] transform hover:scale-105 transition-transform">
+                <div class="text-3xl md:text-4xl font-bold" id="hours">0</div>
+                <div class="text-sm mt-2 text-yellow-200">ساعات</div>
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="bg-gradient-to-br from-amber-800 to-orange-800 text-white rounded-2xl shadow-2xl p-6 min-w-[100px] transform hover:scale-105 transition-transform">
+                <div class="text-3xl md:text-4xl font-bold" id="minutes">0</div>
+                <div class="text-sm mt-2 text-yellow-200">دقائق</div>
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="bg-gradient-to-br from-amber-800 to-orange-800 text-white rounded-2xl shadow-2xl p-6 min-w-[100px] transform hover:scale-105 transition-transform">
+                <div class="text-3xl md:text-4xl font-bold" id="seconds">0</div>
+                <div class="text-sm mt-2 text-yellow-200">ثواني</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="text-center mt-8">
+            <p class="text-lg text-amber-800 font-semibold">
+              📅 من الثلاثاء 17/03/2026م حتى الخميس 19/03/2026م
+            </p>
+          </div>
+        </div>
+      </section>
 
-            let currentQuoteIndex = 0;
+      <!-- المحتوى الرئيسي -->
+      <main class="container mx-auto px-6 py-12 space-y-12">
+        
+        <!-- آلية المسابقة -->
+        <section class="bg-white rounded-3xl shadow-2xl p-8 border border-orange-100">
+          <h3 class="text-3xl font-bold text-amber-900 mb-6 flex items-center gap-3">
+            📌 آلية المسابقة
+          </h3>
+          
+          <div class="space-y-4">
+              <div class="flex items-start space-x-3 space-x-reverse p-4 bg-gradient-to-r from-orange-50 to-yellow-50 rounded-xl">
+              <div class="w-8 h-8 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
+              <p class="text-gray-700 font-medium">هدف إجمالي للثلاث أيام&nbsp; (الثلاثاء - الأربعاء - الخميس)</p>
+            </div>
+            <div class="flex items-start space-x-3 space-x-reverse p-4 bg-gradient-to-r from-orange-50 to-yellow-50 rounded-xl">
+              <div class="w-8 h-8 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
+              <p class="text-gray-700 font-medium">من سيحقق الهدف الإجمالي سيفوز</p>
+            </div>
+          </div>
+          <div class="grid md:grid-cols-2 gap-6">
+            
+          </div>
+          
+          <div class="mt-8 p-6 bg-gradient-to-r from-amber-100 to-orange-100 rounded-2xl text-center">
+            <p class="text-xl font-bold text-amber-800">💡 تذكر: الفوز للأفضل!</p>
+          </div>
+        </section>
 
-            // Update motivational quote
-            function updateMotivationalQuote() {
-                const quoteElement = document.getElementById("motivational-quote");
-                quoteElement.style.opacity = "0";
+        <!-- جداول النقاط والمكافآت -->
+        <section class="bg-white rounded-3xl shadow-2xl p-8 border border-orange-100">
+          <div class="bg-gradient-to-br from-amber-50 to-orange-50 p-6 rounded-2xl border-2 border-orange-200">
+            <h4 class="text-2xl font-bold text-amber-800 mb-6 text-center flex items-center justify-center gap-2">الجوائز</h4>
+              
+            <div class="space-y-3">
+              <div class="p-4 rounded-xl shadow-2xl transform hover:scale-105 transition-all duration-300 bg-gradient-to-r from-yellow-400 to-amber-400 text-white">
+                <div class="flex justify-between items-center">
+                  <div class="flex items-center gap-3">
+                    <svg class="w-6 h-6 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                    </svg>
+                  </div>
+                  <div class="text-right">
+                    <span class="text-2xl font-bold">2500</span>
+                    <span class="text-sm mr-1">ريال</span>
+                  </div>
+                </div>
+                <div class="mt-2 text-center">
+                </div>
+              </div>
+                
+               
+                  
+                
+                
+                
+            </div>
+              
+            <div class="mt-6 p-4 bg-orange-100 rounded-xl text-center">
+            </div>
+          </div>
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- جدول المجموعة A -->
+            
+            <!-- جدول المجموعة B -->
+          </div>
+          
+          <!-- ملاحظة مهمة -->
+        </section>
 
-                setTimeout(() => {
-                    quoteElement.innerHTML = `✨ "${motivationalQuotes[currentQuoteIndex]}" ✨`;
-                    quoteElement.style.opacity = "1";
-                    currentQuoteIndex = (currentQuoteIndex + 1) % motivationalQuotes.length;
-                }, 500);
-            }
+        <!-- آلية التوزيع -->
 
-            // Countdown timer
-            function updateCountdown() {
-                const targetDate = new Date("2026-02-14T23:59:59").getTime();
-                const now = new Date().getTime();
-                const difference = targetDate - now;
 
-                if (difference > 0) {
-                    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-                    const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                    const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-                    const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-                    document.getElementById("days").textContent = days.toString().padStart(2, "0");
-                    document.getElementById("hours").textContent = hours.toString().padStart(2, "0");
-                    document.getElementById("minutes").textContent = minutes.toString().padStart(2, "0");
-                    document.getElementById("seconds").textContent = seconds.toString().padStart(2, "0");
-                }
-            }
+        <!-- التحفيز -->
 
-            // Initialize
-            updateCountdown();
-            updateMotivationalQuote();
+      </main>
 
-            // Set intervals
-            setInterval(updateCountdown, 1000);
-            setInterval(updateMotivationalQuote, 4000);
+      <!-- Footer -->
+      <footer class="bg-gradient-to-r from-amber-900 via-orange-900 to-yellow-800 text-white py-12" style="background-color: darkorange">
+        <div class="container mx-auto px-6 text-center">
+          <div class="mb-6">
+            <img src="https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/OqeQlR/nXCR6C2cOFuSv1iTLqtEoGAdovWmzeLmjn14NvN5.png">
+            <h3 class="text-2xl font-bold">شركة الماجد للعود</h3>
+          </div>
+          <p class="text-yellow-200 text-lg">
+            معًا نحو التميز والنجاح في مسابقة موسم رمضان 2026
+          </p>
+        </div>
+      </footer>
+    </div>
 
-            // Add smooth scrolling and animations
-            document.addEventListener("DOMContentLoaded", function () {
-                // Add fade-in animation to elements as they come into view
-                const observerOptions = {
-                    threshold: 0.1,
-                    rootMargin: "0px 0px -50px 0px"
-                };
+    <script>
+      // العد التنازلي
+      function updateCountdown() {
+        const targetDate = new Date('2026-03-19T23:59:59+03:00'); // توقيت السعودية - آخر يوم المسابقة
+        const now = new Date().getTime();
+        const distance = targetDate.getTime() - now;
+        
+        if (distance > 0) {
+          const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          
+          document.getElementById('days').textContent = days;
+          document.getElementById('hours').textContent = hours;
+          document.getElementById('minutes').textContent = minutes;
+          document.getElementById('seconds').textContent = seconds;
+        } else {
+          document.getElementById('days').textContent = '0';
+          document.getElementById('hours').textContent = '0';
+          document.getElementById('minutes').textContent = '0';
+          document.getElementById('seconds').textContent = '0';
+        }
+      }
 
-                const observer = new IntersectionObserver(function (entries) {
-                    entries.forEach((entry) => {
-                        if (entry.isIntersecting) {
-                            entry.target.style.opacity = "1";
-                            entry.target.style.transform = "translateY(0)";
-                        }
-                    });
-                }, observerOptions);
+      // العبارات التحفيزية
+      const motivationalQuotes = [
+        "✨ كل نقطة اليوم هي إنجاز الغد!",
+        "🏆 اعملوا بجد على الهدف... فالجوائز تنتظر الأبطال!",
+        "🌟 معًا نصنع الفارق، ومعًا نحقق القمة!",
+        "💡 المسؤولية جماعية… والفرح جماعي!",
+        "🚀 طموحكم لا حدود له، وإنجازكم يفوق التوقعات!",
+        "⭐ كل يوم فرصة جديدة لتحقيق المعجزات!",
+        "🎯 الهدف واضح، والطريق مفتوح، والنجاح قريب!",
+        "💪 قوتكم في وحدتكم، ونجاحكم في تعاونكم!",
+        "🌈 اليوم أفضل من أمس، وغداً أفضل من اليوم!",
+        "🔥 الشغف يقودكم، والعزيمة تحقق أحلامكم!"
+      ];
 
-                // Observe all sections
-                document.querySelectorAll(".container > div").forEach((section) => {
-                    section.style.opacity = "0";
-                    section.style.transform = "translateY(20px)";
-                    section.style.transition = "opacity 0.6s ease, transform 0.6s ease";
-                    observer.observe(section);
-                });
-            });
-        </script>
-    </body>
-</html>
+      let currentQuoteIndex = 0;
+
+      function updateCurrentQuote() {
+        document.getElementById('currentQuote').textContent = motivationalQuotes[currentQuoteIndex];
+        currentQuoteIndex = (currentQuoteIndex + 1) % motivationalQuotes.length;
+      }
+
+      function createQuotesGrid() {
+        const quotesGrid = document.getElementById('quotesGrid');
+        quotesGrid.innerHTML = '';
+        
+        motivationalQuotes.forEach((quote, index) => {
+          const quoteDiv = document.createElement('div');
+          quoteDiv.className = 'p-6 bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:-translate-y-2 cursor-pointer group relative overflow-hidden';
+          quoteDiv.style.animationDelay = `${index * 0.1}s`;
+          
+          quoteDiv.innerHTML = `
+            <div class="absolute inset-0 bg-gradient-to-r from-orange-200/0 via-yellow-200/20 to-orange-200/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
+            <p class="text-lg font-semibold text-amber-800 text-center relative z-10 group-hover:text-orange-900 transition-colors">
+              ${quote}
+            </p>
+          `;
+          
+          quotesGrid.appendChild(quoteDiv);
+        });
+      }
+
+      // تشغيل الوظائف
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+      
+      updateCurrentQuote();
+      setInterval(updateCurrentQuote, 3000);
+      
+      createQuotesGrid();
+    </script>
+  
+</body></html>
